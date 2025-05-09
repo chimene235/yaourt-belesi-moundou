@@ -1,169 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mon site e-commerce</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon site e-commerce</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--header-->
-    <header> 
-        <div class="logo">YAOURT BELESI</div> 
-        <nav> 
-            <ul> 
-                <li><a href="index.html">Accueil</a></li> 
-                <li><a href="produits.html">Produits</a></li> 
-                <li><a href="A propos.html">À propos</a></li> 
-                <li><a href="Contact.html">Contact</a></li> 
-            </ul> 
-        </nav> 
-    </header>
 
-    <main> 
-        <section class="intro"> 
-            <h1 id="YAOURT BELESI">sur YAOURT BELESI</h1> 
-            <p id="p">Nous proposons des yaourts 100% naturels, fabriqués localement avec du lait frais issu de producteurs de la region.Sans conservateurs, ni âromes artificiels, nos yaourts allient goût authentique et qualité nutritionnelle. Soutenez une production artisanale et responsable tout en savourant unproduit sain, délicieux et respectueux de l'environnement!</p>
-            <buton onclick="alert('Découvrir les produits')">Découvrir nos produits</buton>
-        </section>
-        
-        <!--section nos produits locaux-->
-        <sectioon class="Nos-produits"> 
-             <h2>Nos Produits naturels</h2>
+  <!-- Header -->
+  <header>
+    <div class="logo">YAOURT BELESI</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="produits.html">Produits</a></li>
+        <li><a href="A propos.html">A propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-             <div class="liste-produit">
+  <main>
+    <!-- Section Intro -->
+    <section class="intro">
+      <h1>À propos de YAOURT BELESI</h1>
+      <p>
+        Nous proposons des yaourts 100% naturels, fabriqués localement avec du lait frais issu de producteurs de la région. Sans conservateurs ni arômes artificiels, nos yaourts allient goût authentique et qualité nutritionnelle. Soutenez une production artisanale et responsable tout en savourant un produit sain, délicieux et respectueux de l'environnement !
+      </p>
+      <button onclick="alert('Découvrir les produits')">Découvrir nos produits</button>
+    </section>
 
-                 <!--carte de produit-->
-                <div class="Carte-produit"></div>
-                     <img src="Avocat.jpeg" alt="Yaourtavocat"> 
-                     <h3>Yaourt d'avocat</h3>
-                     <p>Issus des marchés locaux, nos poissons garantissent fraîcheur et qualité.</p> 
-                     <p class="prix">Prix: 1000 FCFA</p> 
-                     <buton onclick="ajouterAuPanier('yaourtdavocat')">Commandez</buton> 
-                </div><br></br><br></br> 
+    <!-- Section Nos produits -->
+    <section class="nos-produits">
+      <h2>Nos Produits naturels</h2>
 
-            <div class="Carte-produit"> 
-           <img src="banane.jpeg" alt="Yaourtbanane" >
-        <h3>yaourt au banane</h3>
-        <p>Issus des marchés locaux, nos poissons garantissent fraîcheur et qualité.</p> 
-        <p class="prix">Prix: 1000 FCFA</p> 
-        <buton onclick="ajouterAuPanier('Yaurtaubanane')">Commandez</buton> 
-        </div><br><br><br>
+      <div class="liste-produit">
 
-        <div class="Carte-produit"> 
-        <img src="téléchargement (1).jpeg" alt="Yaourtaumangue"> 
-        <h3>yaourt au mangue</h3>
-        <p>Issus des marchés locaux, nos poissons garantissent fraîcheur et qualité.</p> 
-        <p class="prix">Prix: 1000 FCFA</p> 
-        <buton onclick="ajouterAuPanier('Mangues')">commandez</buton>
-        </div><br><br><br>
+        <div class="carte-produit">
+          <img src="Avocat.jpeg" alt="Yaourt avocat" width="40%" height="40%">
+          <h3>Yaourt à l'avocat</h3>
+          <p>Issus des marchés locaux, nos avocats garantissent fraîcheur et qualité.</p>
+          <p class="prix">Prix : 1000 FCFA</p>
+          <button onclick="ajouterAuPanier('yaourtdavocat')">Commander</button>
+        </div>
 
-        <div class="Carte-produit"> 
-        <img src="téléchargement (2).jpeg" alt="Yaourtgoyave"> 
-        <h3>Yourt goyave</h3>
-        <p>Issus des marchés locaux, nos poissons garantissent fraîcheur et qualité.</p> 
-        <p class="prix">Prix: 1000 FCFA</p> 
-        <buton onclick="ajouterAuPanier('goyave')">commandez</buton>
-        </div><br><br>
-        </section><br>
-        
-        <!-- Section Notre Engagement -->
-  <section class="vision-mission">
-    <h2>Notre Engagement</h2>
-    <div class="blocs-engagement">
-  
-      <!--Vision -->
-      <div class="bloc">
-        <img src="tchad1.jpeg" alt="Moundou Vision">
-        <h3>Notre Vision</h3>
-        <p>Devenir LA plateforme de référence qui propulse les Yaourt naturels à l’échelle nationale, tout en respectant nos racines et notre authenticité.</p>
+        <div class="carte-produit">
+          <img src="banane.jpeg" alt="Yaourt banane" width="40%" height="40%">
+          <h3>Yaourt à la banane</h3>
+          <p>Issus des marchés locaux, nos bananes garantissent fraîcheur et qualité.</p>
+          <p class="prix">Prix : 1000 FCFA</p>
+          <button onclick="ajouterAuPanier('yaourtabanane')">Commander</button>
+        </div>
+
+        <div class="carte-produit">
+          <img src="téléchargement (1).jpeg" alt="Yaourt mangue" width="40%" height="40%">
+          <h3>Yaourt à la mangue</h3>
+          <p>Issus des marchés locaux, nos mangues garantissent fraîcheur et qualité.</p>
+          <p class="prix">Prix : 1000 FCFA</p>
+          <button onclick="ajouterAuPanier('yaourtamangue')">Commander</button>
+        </div>
+
+        <div class="carte-produit">
+          <img src="téléchargement (2).jpeg" alt="Yaourt goyave" width="40%" height="40%">
+          <h3>Yaourt à la goyave</h3>
+          <p>Issus des marchés locaux, nos goyaves garantissent fraîcheur et qualité.</p>
+          <p class="prix">Prix : 1000 FCFA</p>
+          <button onclick="ajouterAuPanier('yaourtgoyave')">Commander</button>
+        </div>
+
       </div>
-  
-      <!-- Mission -->
-      <div class="bloc">
-        <img src="tchad2.jpeg" alt="Moundou Mission">
-        <h3>Notre Mission</h3>
-        <p>Créer un lien direct entre producteurs et consommateurs, garantir la qualité, et livrer les richesses de Moundou à domicile, en toute simplicité et en moins de 24h.</p>
+    </section>
+
+    <!-- Section Engagement -->
+    <section class="vision-mission">
+      <h2>Notre Engagement</h2>
+      <div class="blocs-engagement">
+
+        <div class="bloc">
+          <img src="tchad1.jpeg" alt="Vision Moundou">
+          <h3>Notre Vision</h3>
+          <p>Devenir LA plateforme de référence qui propulse les yaourts naturels à l’échelle nationale, tout en respectant nos racines et notre authenticité.</p>
+        </div>
+
+        <div class="bloc">
+          <img src="tchad2.jpeg" alt="Mission Moundou">
+          <h3>Notre Mission</h3>
+          <p>Créer un lien direct entre producteurs et consommateurs, garantir la qualité, et livrer les richesses de Moundou à domicile, en toute simplicité et en moins de 24h.</p>
+        </div>
+
+        <div class="bloc">
+          <img src="tchad3.jpeg" alt="Valeurs Moundou">
+          <h3>Nos Valeurs</h3>
+          <p>Engagement, proximité, transparence et fierté locale. Chaque commande soutient une histoire, une famille, un artisan de Moundou.</p>
+        </div>
+
       </div>
-  
-      <!-- Valeurs -->
-      <div class="bloc">
-        <img src="tchad3.jpeg" alt="Moundou Valeurs">
-        <h3>Nos Valeurs</h3>
-        <p>Engagement, proximité, transparence et fierté locale. Chaque commande soutient une histoire, une famille, un artisan de Moundou.</p>
-      </div><br><br><br>
-  
-  </section><br>
-  
-    <!--Retour à la ligne et ligne verte au milieu-->
-    <br><br><br>
+    </section>
+
     <hr color="#4CAF50">
-  
-  
-    <!-- Section Pourquoi choisir Mossolessi -->
+
+    <!-- Pourquoi choisir YAOURT BELESI -->
     <section class="choisir-yaourtbelesi">
-    <div class="contenu-choisir"><br><br><br>
-  
-    <!-- Texte à gauche -->
-    <div class="texte-choisir">
-        <h2>Pourquoi choisir YAOURT BELESI ?</h2>
-        <p>Notre équipe est composée de professionnels passionnés, dévoués et rigoureux. Nous comptons aujourd'hui <strong>10 collaborateurs</strong> engagés à vos côtés.</p>
-        <ul>
-          <li> Excellence</li>
-          <li> Écoute</li>
-          <li> Sens d'analyse des besoins</li>
-          <li> Flexibilité</li>
-          <li> Dynamisme</li>
-        </ul>
+      <div class="contenu-choisir">
+
+        <div class="texte-choisir">
+          <h2>Pourquoi choisir YAOURT BELESI ?</h2>
+          <p>Notre équipe est composée de professionnels passionnés, dévoués et rigoureux. Nous comptons aujourd'hui <strong>10 collaborateurs</strong> engagés à vos côtés.</p>
+          <ul>
+            <li>Excellence</li>
+            <li>Écoute</li>
+            <li>Sens de l'analyse</li>
+            <li>Flexibilité</li>
+            <li>Dynamisme</li>
+          </ul>
+        </div>
+
+        <div class="carte-info">
+          <h3>Heures d'ouverture</h3>
+          <p><strong>Lundi - Vendredi :</strong> 8h30 - 18h</p>
+          <p><strong>Samedi :</strong> 9h - 12h</p>
+
+          <h4>Besoin d'aide ?</h4>
+          <p>Nos équipes commerciales et techniques sont à votre écoute pour répondre rapidement à tous vos besoins.</p>
+
+          <a href="contact.html" class="btn-contacter">Nous contacter</a>
+        </div>
+
       </div>
-  
-      <!-- Carte à droite -->
-      <div class="carte-info">
-        <h3>Heures d'ouverture</h3>
-        <p><strong>Lundi - Vendredi :</strong> 8h30 - 18h</p>
-        <p><strong>Samedi :</strong> 9h - 12h</p>
-  
-        <h4>Besoin d'aide ?</h4>
-        <p>Nos équipes commerciales et techniques sont à votre écoute pour répondre rapidement à tous vos besoins.</p>
-  
-        <a href="contact.html" class="btn-contacter">Nous Contacter</a>
-      </div><br>
-  
-  </section><br>
-  <!-- Section Notre Équipe -->
-  <section class="equipe">
-    <h2>Notre Équipe</h2>
-    <div class="membres-equipe">
-  <!-- Abdelkadre Seid Djom -->
-      <div class="membre">
-        <img src="chimene.jpg" alt="Mailem chimene">
-        <h3>Mailem chimene</h3>
-        <p>Directeur Général</p>
+    </section>
+
+    <!-- Notre équipe -->
+    <section class="equipe">
+      <h2>Notre Équipe</h2>
+      <div class="membres-equipe">
+
+        <div class="membre">
+          <img src="chimene.jpg" alt="Mailem Chimene">
+          <h3>Mailem Chimene</h3>
+          <p>Directrice Générale</p>
+        </div>
+
+        <div class="membre">
+          <img src="herve.jpg" alt="Nodjilembaye Hervé">
+          <h3>Nodjilembaye Hervé</h3>
+          <p>Responsable Marketing et Communication</p>
+        </div>
+
+        <div class="membre">
+          <img src="tagmi.jpg" alt="Tangmi Edwige Alladoum">
+          <h3>Tangmi Edwige Alladoum</h3>
+          <p>Responsable Administratif et Financier</p>
+        </div>
+
       </div>
-  
-      <!-- nodjilembaye-->
-      <div class="membre">
-        <img src="herve.jpg" alt="Nodjilembaye herve">
-        <h3>Nodjilembaye herve</h3>
-        <p>Responsable Marketing et Communication</p>
-      </div><br><br><br>
-  
-      <!-- NEDOUMBAYE KALNDAYE -->
-      <div class="membre">
-        <img src="tagmi.jpg" alt="Tangmi Edwige Alladoum">
-        <h3>Tangmi Edwige Alladoum</h3>
-        <p>Responsable Administratif et Financier</p>
-      </div><br>
-  
-    </div>
-  </section><br>
-  
-  <!--Retour à la ligne-->
-  
-<footer> 
-        <p>&copy; YAOURT BELESI - Tous droits réservés</p> 
-</footer> 
-        <script src="script.js"></script>
-    
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; YAOURT BELESI - Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
